@@ -1,0 +1,14 @@
+{
+  "name": "helpdesk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Support ticket desk with business-hours SLA timers, priorities, assignment, internal notes and breach tracking.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-force-exit test/*.test.js",
+    "e2e": "node docs/e2e.js"
+  }
+}
